@@ -1,625 +1,388 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
+<style>
+body {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+a {text-decoration : none; color : #003399;}
+a:hover {text-decoration:underline; color: #8C1515; }
+</style>
+
+<style>
+.disabled{
+    pointer-events: none;
+    color:black;
+}
+</style>
+
+<script>
+function copy(dest, source) {
+  if(dest.source == source) {
+    dest.innerHTML = "";
+    dest.source = null;
+  }
+  else {
+    dest.innerHTML = source.innerHTML;
+    dest.source = source;
+  }
+  dest.blur();
+}
+</script>
 
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Satner Portfolio</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
+    <title>Hongguang Zhang's Homepage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Hongguang Zhang">
+    <meta name="keywords" content="Hongguang Zhang, ANU">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Homepage of Hongguang Zhang, a Ph.D student in the College of Engineering and Computer Science at the Australian National University.">
 </head>
 
 <body>
 
-	<!--================ Start Header Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================ End Header Area =================-->
+<table cellpadding="10" style="font-size:18px">
+<tr>
+<td><img src='images/google-scholar-photo.png' alt="Honguang Zhang"/, height = 250></a></td>
+<td>
+<h1> Hongguang Zhang <span style="font-family:STKaiti; font-size:24pt"> (张洪广)</span> </h1>
+<b>PhD</b> <br>
+Assistant Professor at Systems Engineering Institute, AMS <br>
+Computer Vision, Machine Learning, Transfer Learning <br>  
+<b>Email</b>: <tt>zhang.hongguang@outlook.com</tt> <br>
+<!-- <b>Office</b>: Gates 234</font> <br> -->
+<a href = "#publications">[Publications]</a> <a href = "#education">[Education]</a> <a href="#honors">[Awards]</a> <a href="#activities">[Activities]</a>
+</td>
+</tr>
+</table>
 
-	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7">
-						<div class="banner_content">
-							<h3 class="text-uppercase">Hell0</h3>
-							<h1 class="text-uppercase">I am rahi satner</h1>
-							<h5 class="text-uppercase">senior wordpress developer</h5>
-							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="#"><span>Hire Me</span></a>
-								<a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5">
-						<div class="home_right_img">
-							<img class="" src="img/banner/home-right.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Home Banner Area =================-->
+<p style="width: 1000px;">
+I am an assistant professor at Systems Engineering Institute, AMS, and selected into the Young Talents Support Project of China Association for Science and Technology (<span style="font-family:STKaiti; font-size:14pt">中国科协青年人才托举工程</span>) in 2022.
+<br><br>
+I obtained the PhD from CECS of Australian National University (ANU) and Data61/CSIRO in 2020.
+Before this, I graduated from Shanghai Jiao Tong University (SJTU) for B.Eng in Electrical Engineering and Automation in 2014, then obtained the M.Eng from National University of Defense Technology (NUDT) in 2016.
+<br>
+<br>
+My main research topics are computer vision and machine learning. Specifically, I am currently doing research works on zero-shot learning, few-shot learning, federated learning with deep learning approaches. I am also interested in some low-level vision tasks, e. g. image and video deblurring. <br><br>
+</p>
+<br>
 
-	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap">
-		<div class="container">
-			<div class="row justify-content-start align-items-center">
-				<div class="col-lg-5">
-					<div class="about_img">
-						<img class="" src="img/about-us.png" alt="">
-					</div>
-				</div>
+<a name = "news" class="disabled"><h2> Recent News </h2></a>
+<li> Selected into the Young Talents Support Project, CAST </li>
+<li> 1 paper gets accepted by <b>TMM</b>. </li>
+<li> Youth Science Fund Project, National Natural Science Foundation of China is accepted </li>
+<li> 2 papers get accepted by <b>CVPR'</b>21. </li>
+<li> 1 paper gets accepted by <b>TPAMI</b>. </li>
+<li> 1 paper gets accepted by <b>ECCV'</b>20 as spotlight. </li>
+<li> I will serve as a reviewer for <b>NeruIPS'</b>20. </li>
+<li> PhD Oral Defense (ANU PhD Completion Seminar) Completed. 2020.01.16 </li>
+<li> I will serve as a reviewer for <b>ECCV'</b>20. </li>
+<li> I will serve as a reviewer for <b>ICML'</b>20. </li>
+<li> I will serve as a reviewer for <b>CVPR'</b>20. </li>
+<li> I will serve as a reviewer for <b>ICLR'</b>20. </li>
+<li> I join <b>Torr Vision Group (TVG)</b> at <b>University of Oxford</b> for academic visiting now, supervised by Prof. <b>Philip H. S. Torr</b>.  </li>
+<li> I will serve as a PC member for <b>AAAI'</b>20. </li>
+<li> I will serve as a reviewer for <b>ICCV'</b>19. </li>
+<br>
 
-				<div class="offset-lg-1 col-lg-5">
-					<div class="main_title text-left">
-						<h2>let’s <br>
-							Introduce about <br>
-							myself</h2>
-						<p>
-							Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven 
-							midst their. Beast creepeth. Fish days.
-						</p>
-						<p>
-							Is give may shall likeness made yielding spirit a itself together created after sea 
-							is in beast beginning signs open god you're gathering whose gathered cattle let. 
-							Creature whales fruit unto meat the life beginning all in under give two.
-						</p>
-						<a class="primary_btn" href="#"><span>Download CV</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End About Us Area =================-->
+  
+<a name = "publications" class="disabled"><h2> Publications
+<font size="3">[<a href="https://scholar.google.com/citations?user=IUYz14IAAAAJ&hl=en">Google Scholar</a>]</font></h2></a>
+(<sup>*</sup>: equal contribution)
+<ul style="width: 1000px;">
 
-	<!--================ Srart Brand Area =================-->
-	<section class="brand_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo1.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo2.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo3.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo4.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo5.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo6.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo7.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo8.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo9.png" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-4 col-md-6">
-					<div class="client-info">
-						<div class="d-flex mb-50">
-							<span class="lage">10</span>
-							<span class="smll">Years Experience Working</span>
-						</div>
-						<div class="call-now d-flex">
-							<div>
-								<span class="fa fa-phone"></span>
-							</div>
-							<div class="ml-15">
-								<p>call us now</p>
-								<h3>(+1)-800-555-6789</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Brand Area =================-->
+  <li><a href="https://ieeexplore.ieee.org/document/9681205"><b>Multi-level Second-order Few-shot Learning</b></a><br><b>Hongguang Zhang</b>, Hongdong Li, Piotr Koniusz. <br> <b>TMM</b> </li>
+<div id="bib14" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+    @ARTICLE{9681205,
+      author={Zhang, Hongguang and Li, Hongdong and Koniusz, Piotr},
+      journal={IEEE Transactions on Multimedia}, 
+      title={Multi-level Second-order Few-shot Learning}, 
+      year={2022},
+      volume={},
+      number={},
+      pages={1-1},
+      doi={10.1109/TMM.2022.3142955}}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div14, bib14)">bib</a>][<a href="https://ieeexplore.ieee.org/document/9681205">paper</a>]</font><br>
+  <div id="div14"></div> <br> 
 
-	<!--================ Start Features Area =================-->
-	<section class="features_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<h2>service offers </h2>
-						<p>
-							Is give may shall likeness made yielding spirit a itself togeth created 
-							after sea <br> is in beast beginning signs open god you're gathering ithe
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row feature_inner">
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s1.png" alt="">
-						<h4>Wp developing</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s2.png" alt="">
-						<h4>UI/ux design</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s3.png" alt="">
-						<h4>Web design</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s4.png" alt="">
-						<h4>seo optimize</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Features Area =================-->
+  <li><a href="https://arxiv.org/pdf/2001.03919.pdf"><b>Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning</b></a><br><b>Hongguang Zhang</b>, Piotr Koniusz, Songlei Jian, Hongdong Li, Philip H. S. Torr. <br> <b>CVPR'</b>21 </li>
+<div id="bib13" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+    @article{zhang2020rethinking,
+      title={Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning},
+      author={Zhang, Hongguang and Koniusz, Piotr and Jian, Songlei and Li, Hongdong and Torr, Philip HS},
+      journal={arXiv preprint arXiv:2001.03919},
+      year={2020}
+    }
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div13, bib13)">bib</a>][<a href="https://arxiv.org/pdf/2001.03919.pdf">paper</a>]</font><br>
+  <div id="div13"></div> <br> 
 
-	<!--================Start Portfolio Area =================-->
-	<section class="portfolio_area" id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title text-left">
-						<h2>quality work <br>
-							Recently done project </h2>
-					</div>
-				</div>
-			</div>
-			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">all</li>
-					<li data-filter=".popular">popular</li>
-					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
-				</ul>
-			</div>
-	
-			<div class="filters-content">
-				<div class="row portfolio-grid justify-content-center">
-					<div class="col-lg-4 col-md-6 all latest">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p1.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">minimal design</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p2.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Paint wall</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all latest">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p3.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">female light</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p4.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">fourth air</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p5.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">together sign</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p5.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p6.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">multiply fowl</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p7.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p7.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">green heaven</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p8.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p8.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4>fly male</h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p9.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p9.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">season face</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Portfolio Area =================-->
+  <li><a href="https://arxiv.org/pdf/2012.00301.pdf"><b>Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration</b></a><br>Liyuan Pan, Shah Chowdhury, Richard Hartley, Miaomiao Liu, <b>Hongguang Zhang</b>, Hongdong Li. <br> <b>CVPR'</b>21 <b style="color:Red;"> (Oral)</b> </li>
+<div id="bib12" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+    @article{pan2020dual,
+      title={Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration},
+      author={Pan, Liyuan and Chowdhury, Shah and Hartley, Richard and Liu, Miaomiao and Zhang, Hongguang and Li, Hongdong},
+      journal={arXiv preprint arXiv:2012.00301},
+      year={2020}
+    }
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div12, bib12)">bib</a>][<a href="https://arxiv.org/pdf/2012.00301.pdf">paper</a>]</font><br>
+  <div id="div12"></div> <br>  
 
-	<!--================ Start Testimonial Area =================-->
-	<div class="testimonial_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<h2>client say about me</h2>
-						<p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-							 beginning signs open god you're gathering ithe</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="testi_slider owl-carousel">
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Elite Martin</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Davil Saden</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Elite Martin</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Davil Saden</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Elite Martin</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="testi_item">
-        				<div class="row">
-        					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
-        					</div>
-        					<div class="col-lg-8">
-        						<div class="testi_text">
-        							<h4>Davil Saden</h4>
-									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-			</div>
-		</div>
-	</div>
-	<!--================ End Testimonial Area =================-->
+  <li> <a href="https://arxiv.org/pdf/2012.13975.pdf"><b>Power Normalizations in Fine-grained Image, Few-shot Image and Graph Classification
+</b></a><br>Piotr Koniusz*, <b>Hongguang Zhang*</b>. <br> <b>T-PAMI</b></li>
+<div id="bib11" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+    @article{koniusz2020power,
+      title={Power normalizations in fine-grained image, few-shot image and graph classification},
+      author={Koniusz, Piotr and Zhang, Hongguang},
+      journal={arXiv preprint arXiv:2012.13975},
+      year={2020}
+    }
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div11, bib11)">bib</a>][<a href="https://arxiv.org/pdf/2012.13975.pdf">paper</a>]</font><br>
+  <div id="div11"></div> <br> 
 
-	<!--================ Start Newsletter Area =================-->
-	<section class="newsletter_area">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-12">
-					<div class="subscription_box text-center">
-						<h2 class="text-uppercase text-white">get update from anywhere</h2>
-						<p class="text-white">
-							Bearing Void gathering light light his eavening unto dont afraid. 
-						</p>
-						<div class="subcribe-form" id="mc_embed_signup">
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
-								<input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
-								<div style="position: absolute; left: -5000px;">
-									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-								</div>
-								<button class="primary-btn hover d-inline">Get Started</button>
-								<div class="info"></div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Newsletter Area =================-->
+  <li><a href="http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500511.pdf"><b>Few-shot Action Recognition with Permutation-invariant Attention</b></a><br><b>Hongguang Zhang</b>, Li Zhang, Xiaojuan Qi, Hongdong Li, Philip H. S. Torr, Piotr Koniusz. <br> <b>ECCV'</b>20 <b style="color:Red;"> (Spotlight)</b> </li>
+<div id="bib10" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+    @inproceedings{zhang2020few,
+      title={Few-shot action recognition with permutation-invariant attention},
+      author={Zhang, H and Zhang, L and Qi, X and Li, H and Torr, PHS and Koniusz, P},
+      booktitle={Proceedings of the European Conference on Computer Vision (ECCV 2020)},
+      volume={12350},
+      year={2020},
+      organization={Springer}
+    }
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div10, bib10)">bib</a>][<a href="http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500511.pdf">paper</a>][<a href="https://github.com/HongguangZhang/arn-eccv20-master">code</a>]</font><br>
+  <!--<td><a href="images/arn.png"><img src='images/arn.png' alt="arn"/, height = 100></a></td> -->
+<div id="div10"></div> <br> 
 
-	<!--================Footer Area =================-->
-	<footer class="footer_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="footer_top flex-column">
-						<div class="footer_logo">
-							<a href="#">
-								<img src="img/logo.png" alt="">
-							</a>
-							<h4>Follow Me</h4>
-						</div>
-						<div class="footer_social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row footer_bottom justify-content-center">
-				<p class="col-lg-8 col-sm-12 footer-text">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
+  <li><a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cav.1964"> <b>One-shot Video-based Person Re-Identification with Variance Subsampling Algorithm</b></a><br>Jing Zhao, Wenjing Yang, Mingliang Yang, Wanrong Huang, Qilong Yang, <b>Hongguang Zhang</b>. <br> <b>CAVW</b> </li>
+<div id="bib9" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+    @article{zhao2020one,
+      title={One-shot video-based person re-identification with variance subsampling algorithm},
+      author={Zhao, Jing and Yang, Wenjing and Yang, Mingliang and Huang, Wanrong and Yang, Qiong and Zhang, Hongguang},
+      journal={Computer Animation and Virtual Worlds},
+      volume={31},
+      number={4-5},
+      pages={e1964},
+      year={2020},
+      publisher={Wiley Online Library}
+    }
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div9, bib9)">bib</a>][<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/cav.1964">paper</a>]</font><br>
+  <div id="div9"></div> <br> 
+  
+  <li><a href="https://arxiv.org/pdf/1904.03468.pdf"> <b>Deep Stacked Hierarchical Multi-patch Network for Image Deblurring</b></a><br><b>Hongguang Zhang</b>, Yuchao Dai, Hongdong Li, Piotr Koniusz. <br> <b>CVPR'</b>19  </li>
+  <div id="bib7" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+@article{zhang2019deep,
+  title={Deep Stacked Hierarchical Multi-patch Network for Image Deblurring},
+  author={Zhang, Hongguang and Dai, Yuchao and Li, Hongdong and Koniusz, Piotr},
+  journal={arXiv preprint arXiv:1904.03468},
+  year={2019}
+}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div7, bib7)">bib</a>][<a href="https://arxiv.org/pdf/1904.03468.pdf">paper</a>][<a href="https://github.com/HongguangZhang/DMPHN-cvpr19-master">code</a>]</font><br>
+  <!--<td><a href="images/dmphn.png"><img src='images/dmphn.png' alt="dmphn"/, height = 100></a></td>-->
+  <div id="div7"></div> <br>
+  
+  <li><a href="https://arxiv.org/pdf/1904.03472.pdf"> <b>Few-shot Learning via Saliency-guided Hallucination of Samples</b></a><br><b>Hongguang Zhang</b>, Jing Zhang, Piotr Koniusz. <br> <b>CVPR'</b>19 </li>
+  <div id="bib6" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+@article{zhang2019few,
+  title={Few-shot Learning via Saliency-guided Hallucination of Samples},
+  author={Zhang, Hongguang and Zhang, Jing and Koniusz, Piotr},
+  journal={arXiv preprint arXiv:1904.03472},
+  year={2019}
+}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div6, bib6)">bib</a>][<a href="https://arxiv.org/pdf/1904.03472.pdf">paper</a>][<a href="https://github.com/HongguangZhang/SalNet-cvpr19-master">code</a>]</font><br>
+  <!--<td><a href="images/salnet.png"><img src='images/salnet.png' alt="salnet"/, height = 100></a></td>-->
+  <div id="div6"></div> <br>
+  
+  <li> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8658920"><b>Power Normalizing Second-order Similarity Network for Few-shot Learning</b></a><br><b>Hongguang Zhang</b>, Piotr Koniusz. <br> <b>WACV'</b>19 <b style="color:Red;"> (Oral)</b>  </li>
+  <div id="bib5" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+@inproceedings{zhang2019power,
+  title={Power normalizing second-order similarity network for few-shot learning},
+  author={Zhang, Hongguang and Koniusz, Piotr},
+  booktitle={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  pages={1185--1193},
+  year={2019},
+  organization={IEEE}
+}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div5, bib5)">bib</a>][<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8658920">paper</a>] [<a href="https://github.com/HongguangZhang/SoSN-wacv19-master">code</a>] </font><br>
+  <!--<td><a href="images/sosn.png"><img src='images/sosn.png' alt="sosn"/, height = 100></a></td>-->
+  <div id="div5"></div> <br>
+  
+  <li> <a href="https://arxiv.org/pdf/1811.03252.pdf"><b>Model Selection for Generalized Zero-shot Learning</b></a><br><b>Hongguang Zhang</b>, Piotr Koniusz. <br> <b>ECCV'</b>18 workshops  </li>
+  <div id="bib4" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+@inproceedings{zhang2018model,
+  title={Model selection for generalized zero-shot learning},
+  author={Zhang, Hongguang and Koniusz, Piotr},
+  booktitle={European Conference on Computer Vision},
+  pages={198--204},
+  year={2018},
+  organization={Springer}
+}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div4, bib4)">bib</a>] [<a href="https://arxiv.org/pdf/1811.03252.pdf">paper</a>]</font><br>
+  <!--<td><a href="images/2way-sa.png"><img src='images/2way-sa.png' alt="2way-sa"/, height = 125></a></td>-->
+  <div id="div4"></div> <br>
+  
+  <li> <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Piotr_Koniusz_Museum_Exhibit_Identification_ECCV_2018_paper.pdf"><b>Museum Exhibit Identification Challenge for the Supervised Domain Adaptation and Beyond</b></a><br>Piotr Koniusz*, Yusuf Tas*, <b>Hongguang Zhang</b>, <i>et al</i>. <br> <b>ECCV'</b>18  <b style="color:Red;"> (Oral)</b></li>
+  <div id="bib3" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+@InProceedings{Koniusz_2018_ECCV,
+  author = {Koniusz, Piotr and Tas, Yusuf and Zhang, Hongguang and Harandi, Mehrtash and Porikli, Fatih and Zhang, Rui},
+  title = {Museum Exhibit Identification Challenge for the Supervised Domain Adaptation and Beyond},
+  booktitle = {The European Conference on Computer Vision (ECCV)},
+  month = {September},
+  year = {2018}
+}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div3, bib3)">bib</a>] [<a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Piotr_Koniusz_Museum_Exhibit_Identification_ECCV_2018_paper.pdf">paper</a>][<a href="http://users.cecs.anu.edu.au/~koniusz/openmic-dataset/">download</a>] </font><br>
+  <!--<td><a href="images/openmic.png"><img src='images/openmic.png' alt="openmic"/, height = 100></a></td>-->
+  <div id="div3"></div> <br>
+  
+  <li> <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Zero-Shot_Kernel_Learning_CVPR_2018_paper.pdf"><b>Zero-shot Kernel Learning</b></a><br><b>Hongguang Zhang*</b>, Piotr Koniusz*. <br> <b>CVPR'</b>18 </li>
+  <div id="bib2" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+@InProceedings{Zhang_2018_CVPR,
+  author = {Zhang, Hongguang and Koniusz, Piotr},
+  title = {Zero-Shot Kernel Learning},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2018}
+}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div2, bib2)">bib</a>] [<a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Zero-Shot_Kernel_Learning_CVPR_2018_paper.pdf">paper</a>] [<a href="https://github.com/HongguangZhang/zskl-cvpr18-master">code</a>] </font><br>
+  <!--<td><a href="images/zskl.png"><img src='images/zskl.png' alt="zskl"/, height = 90></a></td>-->
+  <div id="div2"></div> <br>
+  
+  <li> <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Koniusz_A_Deeper_Look_CVPR_2018_paper.pdf"><b>A Deeper Look at Power Normalizations</b></a><br>Piotr Koniusz*, <b>Hongguang Zhang*</b>. <br> <b>CVPR'</b>18 </li>
+  <div id="bib1" style="display:none">
+  <blockquote style="font-size:9pt">
+  <pre>
+@InProceedings{Koniusz_2018_CVPR,
+  author = {Koniusz, Piotr and Zhang, Hongguang and Porikli, Fatih},
+  title = {A Deeper Look at Power Normalizations},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2018}
+}
+  </pre>
+  </blockquote>
+  </div>
+  <font size="-1">[<a href="javascript:copy(div1, bib1)">bib</a>] [<a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Koniusz_A_Deeper_Look_CVPR_2018_paper.pdf">paper</a>] </font><br>
+  <!--<td><a href="images/sop.png"><img src='images/sop.png' alt="sop"/, width = 300></a></td>-->
+  <div id="div1"></div> <br>
+</ul>
+<br>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<script src="js/theme.js"></script>
-</body>
+<a name = "education" class="disabled"><h2> Education </h2></a>
+<ul style="width: 1000px;">
+<li> 2016.10 - 2020.05: Ph.D., <b>Australian National University</b>, Supervisor: <b><a href="http://users.cecs.anu.edu.au/~koniusz/">Dr. Piotr Koniusz</a>, <a href="http://users.cecs.anu.edu.au/~hongdong/">Prof. Hongdong Li</a></b> </li>
+<li> 2019.08 - 2019.12: Academic Visitor, <b>University of Oxford</b>, Torr Vision Group, Supervisor: <b><a href="http://www.robots.ox.ac.uk/~phst/">Prof. Philip H. S. Torr</a></b> </li>
+<li> 2014.09 - 2016.06: M.Eng, <b>National University of Defense Technology</b> </li>
+<li> 2010.09 - 2014.06: B.Eng, <b>Shanghai Jiao Tong University</b> </li>
+</ul>
+<br>
+
+<a name = "honors" class="disabled"><h2> Projects</h2></a>
+<ul style="width: 1000px;">
+  <li> Young Talents Support Project, China Association for Science and Technology (<span style="font-family:STKaiti; font-size:14pt">中国科协青年人才托举工程</span>)  2022-2024</li>
+  <li> Youth Science Fund Project, National Natural Science Foundation of China    (<span style="font-family:STKaiti; font-size:14pt">NSFC青年科学基金项目</span>)     2022-2024</li>
+</ul>
+<br>
+
+<a name = "honors" class="disabled"><h2> Academic Honors and Awards</h2></a>
+<ul style="width: 1000px;">
+  <li> Peng Cheng Laboratory (PCL) Overseas Youth Talents Forum, 2020 </li>
+  <li> ANU CECS Dean's Travel Award, 2019 </li>
+  <li> ANU Vice-Chancellor's Travel Grant, 2019 </li>
+  <li> Data61/CSIRO Scholarship, 2018 </li>
+  <li> ICML Travel Grant, 2017 </li>
+  <li> China Scholarship Council PhD Scholarship, 2016 </li>
+  <li> Merit Postgraduate Student Innovation Fellowship, NUDT, 2016 </li>
+  <li> Kuang-hua Fellowship, NUDT, 2015</li>
+  <li> Outstanding Graduate Award, SJTU, 2014</li>
+  <li> Shanghai Government Scholarship, SJTU, 2013</li>
+  <li> Shanghai Second-class Award of National Undergraduate Electronic Design Contest, SJTU, 2013 </li>
+  <li> Academic Excellence Fellowship, SJTU, 2013 </li>
+  <li> National Endeavor Fellowship, SJTU, 2013 </li>
+  <li> Merit Student, SJTU, 2012-2013 </li>
+</ul>
+<br>
+
+<a name = "activities" class="disabled"><h2> Professional Activities </h2></a>
+<ul style="width: 1000px;">
+<li> Co-organized ACCV 2018 Workshop: <b> Museum Exhibit Identification Challenge (Open MIC) for Domain Adaptation and Few-Shot Learning. </b> </li>
+<li> Conference Review: CVPR'20-21, NeruIPS'20, ICML'20-21, ICLR'20-21, ECCV'20, ICCV'19-21, AAAI'20, ACCV'20, BMVC'19-20, WACV'19-20</li>
+<li> Journal Review: TPAMI, IJCV, TIP, TMM, TCSVT, IMAVIS, KNOSYS</li>
+<li> Tutor for <b>ENG4528 Computer Vision Semester 1 2019</b>.
+</ul>
+<br>
+
+<a name = "social-activities" class="disabled"><h2> Other Activities and Awards </h2></a>
+<ul style="width: 1000px;">
+<li> The Leader of Graduation Oath, SJTU Graduation Ceremony, 2014</li>
+<li> First-class Award of 1st "In the Name of Youth" Graduation Speech Contest, SJTU, 2014 </li>
+<li> The Anchor of NUDT News, NUDT, 2014-2016 </li>
+<li> First-class Award of NUDT Speech Contest, NUDT, 2014</li>
+<li> Top 20 Billiards Players of SJTU</b>.
+</ul>
+<br>
+
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/2.js?i=5259p4y2ksc&amp;m=0&amp;s=160&amp;c=ff0000&amp;t=1" async="async"></script>
 
 </html>
