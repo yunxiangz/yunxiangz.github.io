@@ -1,4 +1,4 @@
-# yunxiangzhao.github.io
+# yunxiangz.github.io
 Yunxiang Zhao, Home page
 <br>
 
